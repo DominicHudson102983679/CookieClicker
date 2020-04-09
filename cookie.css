@@ -1,0 +1,65 @@
+body {
+    height: 100vw;
+    width: 100vw;
+    max-width: 1000px;
+    max-height: 1000px;
+    background-color: green;
+    text-align: center;
+    overflow: hidden;
+    color: honeydew;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#header {
+    background-color: yellow;
+    width: 100vw;
+    height: 50px;
+    padding: 25px;
+    margin: 10px;
+    font-size: 2.5rem;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: 10px;
+}
+
+#counter {
+    height: 400px;
+    width: 200px;
+    background-color: blue;
+    display: flex;
+}
+
+#countertext {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cookieimage {
+    height: 35vh;
+    width: 35vw;
+    max-height: 400px;
+    max-width: 400px;
+    min-width: 100px;
+    min-height: 100px;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#upgrade {
+    height: 400px;
+    width: 200px;
+    background-color: sienna;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
