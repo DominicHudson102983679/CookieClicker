@@ -1,13 +1,11 @@
-var cookieCount = document.getElementById("cookieCount"),
-var cookieCount = 0;
-var cookieImage = document.getElementById("cookieImage");
-
-// cookieImage.addEventListener('click', oneClick);
+var cookieCount = document.getElementById('cookieCount');                               
+var count = 0;                                                                          
+var cookieImage = document.getElementById('cookieImage');                               
 
 
+function onClick() {                                                                  
+    count++;                                                                            
+    cookieCount.innerHTML = count + " Cookies";                                         
+};                                                                                      
 
-cookieImage.onclick = function() {
-    cookieCount++;
-    cookieCount.innerHTML = cookieCount + "Cookies";
-};
-
+cookieImage.addEventListener('click', onClick);
