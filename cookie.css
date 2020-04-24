@@ -59,7 +59,16 @@ body {
     width: 200px;
     background-color: sienna;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+#autoClick {
+    height: 50px;
+    width: 150px;
+    margin: 5px;
+}
+
+#tripleClick {
+    height: 50px;
+    width: 150px;
+    margin: 5px;
 }
