@@ -1,18 +1,21 @@
 body {
     height: 100vw;
     width: 100vw;
-    max-width: 1000px;
-    max-height: 1000px;
+    max-width: 800px;
+    max-height: 600px;
+    min-width: 730px;
+    min-height: 600px;
     background-color: green;
     text-align: center;
     overflow: hidden;
     color: honeydew;
     font-family: 'Fira Sans', sans-serif;
+    border-style: ridge;
 }
 
 #header {
     background-color: yellow;
-    width: 100vw;
+    width: 730px;
     height: 50px;
     padding: 25px;
     margin: 10px;
@@ -24,13 +27,22 @@ body {
     align-items: center;
     justify-content: space-around;
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+#counter, #cookieimage, #upgrade {
     margin: 10px;
 }
 
 #counter {
     height: 400px;
-    width: 200px;
-    background-color: blue;
+    width: 27%;
+
+    color: black;
+    background-color: honeydew;
     display: flex;
 }
 
@@ -42,12 +54,13 @@ body {
 }
 
 #cookieImage {
-    height: 35vh;
-    width: 35vw;
+    height: 40vh;
+    width: 40vw;
+
     max-height: 400px;
     max-width: 400px;
-    min-width: 100px;
-    min-height: 100px;
+    min-width: 300px;
+    min-height: 300px;
  
     display: flex;
     justify-content: center;
@@ -56,26 +69,21 @@ body {
 
 #upgrade {
     height: 400px;
-    width: 200px;
+    width: 27vh;
+    min-width: 200px;
     background-color: sienna;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    border-style: ridge;
 
 }
 
-#autoClick {
-    height: 50px;
+#autoClick, #tripleClick, #doubleScore {
+    min-height: 50px;
     width: 150px;
     margin: 5px;
-}
-
-#tripleClick {
-    height: 50px;
-    width: 150px;
-    margin: 5px;
-}
-
-#doubleScore {
-    height: 50px;
-    width: 150px;
-    margin: 5px;
+    font-family: 'Fira Sans', sans-serif;
 
 }

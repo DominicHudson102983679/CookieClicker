@@ -82,5 +82,6 @@ doubleScore.addEventListener('click', function() {
     );
 
 if (score >= 1000) {
+  score = 1000;
   cookieCount.innerHTML = "THANK YOU FOR THE 1000 COOKIES";
-}
+};
