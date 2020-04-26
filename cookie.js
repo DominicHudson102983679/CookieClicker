@@ -35,16 +35,14 @@ autoClick.addEventListener('click', function() {
         score++;
         cookieCount.innerHTML = score + " Cookies";
       }, 1000);
-      autoClick.innerHTML = "Purchased";
+      autoClick.innerHTML = "PURCHASED";
+      autoClick.style.backgroundColor="rgb(159, 240, 159)";
       } else if (score < 10) {
           alert("Need more cookies!");
           }
         }
       );
 
-
-
-// attaching a 'click' listening function to the triple-clicker button
 tripleClick.addEventListener('click', function() {
 
 // if user has 10 cookies or more, run the plusThree function
@@ -58,7 +56,8 @@ if (score >= 25 && score <= 1000) {
       };
       // another listening event is added to the cookie image. functions plusOne and plusThree now both active    
       cookieImage.addEventListener('click', plusThree);
-      tripleClick.innerHTML = "Purchased";
+      tripleClick.innerHTML = "PURCHASED";
+      tripleClick.style.backgroundColor="rgb(159, 240, 159)";
     } else if (score < 25) {
      alert("Need more cookies!");
     }
@@ -74,13 +73,15 @@ doubleScore.addEventListener('click', function() {
       score = score * timesTwo;
       cookieCount.innerHTML = score + " Cookies";
     }, 5000);
-    doubleScore.innerHTML = "Purchased";
+    doubleScore.innerHTML = "PURCHASED";
+    doubleScore.style.backgroundColor="rgb(159, 240, 159)";
     } else if (score < 50) {
         alert("Need more cookies!");
         }
       }
     );
 
+// trying to stop the cookie counter at 1000 cookies    
 if (score >= 1000) {
   score = 1000;
   cookieCount.innerHTML = "THANK YOU FOR THE 1000 COOKIES";

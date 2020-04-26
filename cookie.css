@@ -1,25 +1,25 @@
 body {
-    height: 100vw;
-    width: 100vw;
-    max-width: 800px;
-    max-height: 600px;
-    min-width: 730px;
-    min-height: 600px;
-    background-color: green;
+    height: 550px;
+    width: 750px;
+    background-color: burlywood;
     text-align: center;
     overflow: hidden;
-    color: honeydew;
+    color: rgb(94, 43, 19);
     font-family: 'Fira Sans', sans-serif;
     border-style: ridge;
+    border-color: rgb(94, 43, 19);
+
 }
 
 #header {
-    background-color: yellow;
-    width: 730px;
+    background-color: rgb(161, 139, 9);
+    width: 680px;
     height: 50px;
     padding: 25px;
     margin: 10px;
     font-size: 2.5rem;
+    border-style: ridge;
+    border-color: rgb(94, 43, 19);
 }
 
 #container {
@@ -39,11 +39,11 @@ body {
 
 #counter {
     height: 400px;
-    width: 27%;
-
-    color: black;
-    background-color: honeydew;
+    width: 200px;
+    background-color: rgb(161, 139, 9);
     display: flex;
+    border-style: ridge;
+    border-color: rgb(94, 43, 19);
 }
 
 #countertext {
@@ -54,29 +54,25 @@ body {
 }
 
 #cookieImage {
-    height: 40vh;
-    width: 40vw;
-
-    max-height: 400px;
-    max-width: 400px;
-    min-width: 300px;
-    min-height: 300px;
- 
+    height: 300px;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-style: ridge;
+    border-color: rgb(94, 43, 19);
 }
 
 #upgrade {
     height: 400px;
-    width: 27vh;
-    min-width: 200px;
-    background-color: sienna;
+    width: 200px;
+    background-color: rgb(161, 139, 9);
     justify-content: center;
     align-items: center;
     flex-direction: column;
     display: flex;
     border-style: ridge;
+    border-color: rgb(94, 43, 19);
 
 }
 
@@ -86,4 +82,9 @@ body {
     margin: 5px;
     font-family: 'Fira Sans', sans-serif;
 
+}
+
+button:active {
+    background-color: rgb(159, 240, 159);
+    color: white;
 }
